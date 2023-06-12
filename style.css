@@ -1,0 +1,190 @@
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+/* div{/* this will not work as we have used class name to style the div tag. */
+    /* Not needed */
+    /* margin-top: 0px; */
+    /* margin-left: 0px; */
+    /* background-color: red; this will apply to all the <div> tags in which there is no seperate css for them. */
+    /* height: 20px; */
+/* } */
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    /* line-height: 2; */
+    /* width: 10%;
+    margin: auto;
+    text-decoration: underline; */
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    text-decoration: underline;
+}
+hr {
+    /* background-color: antiquewhite; */
+    height: 0px;
+    width: 4%;
+    border: 7px dotted; /* applied dotted with size */
+    border-style: none none dotted;
+    color: #EAF6F6;
+}
+p{
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    /* line-height: 2; */
+    /* position: relative;
+    left: 25%; */
+    margin: 100px auto 100px auto;
+}
+.para{
+    width: 30%;
+    margin: auto;
+    color: #40514E;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+.butterfly{
+    width: 25%;
+    height: 10rem;
+    float: right;
+    margin-right: 30px;
+}
+/* .butterfly_para{
+    clear: right;
+} */
+.computer{
+    /* height: 200px;
+    width: 200px; */
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+/* .computer_para{
+    clear: left;
+} */
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    /* height: 200px; */
+    /* width: 200px; */
+    /* font-size: medium; */
+    padding-top: 100px;
+    /* border:10px solid; */
+    /* border-color: black; */
+}
+/* .middle-container{ */
+    /* background-color: red; */
+    /* margin-left: 260px; */
+    /* padding: 20px; */
+    /* height: 200px;
+    width: 200px; */
+    /* border:solid 20px; */
+    /* border-color: black; */
+/* } */
+/* .bottom-container{ */
+    /* background-color: aquamarine; */
+    /* margin-left: 500px; */
+    /* height: 200px;
+    width: 200px; */
+    /* border:solid 10px; */
+    /* border-color: black; */
+/* } */
+
+.mountain{
+    /* display: block; */
+    /* margin: auto; */
+    /* position: absolute; */
+    /* right: 200px; */
+    height: 450px;
+    width: 800px;
+}
+
+.top-cloud{
+    /* position: relative; */
+    /* left: 350px; */
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    height: 120px;
+    width: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    /* position: relative; */
+    /* right: 350px; */
+    top: 300px;
+    left: 200px;
+    height: 120px;
+    width: 300px;
+    /* right: 400px; */
+}
+.btn {
+    background: #34d9c3;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cfada;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+}
+.footer-link{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.bottom_para{
+    /* margin-bottom: 0; not needed coz padding in bottom-container cover it all.*/
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
